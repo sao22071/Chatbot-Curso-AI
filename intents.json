@@ -1,0 +1,63 @@
+{
+    "intents": [
+      {
+        "tag": "saludo",
+        "patterns": ["Hola", "Buenos días", "Buenas tardes", "Qué tal", "Hey", "Saludos"],
+        "responses": ["¡Hola! ¿En qué puedo ayudarte?", "¡Bienvenido! ¿Necesitas información académica?", "Hola, dime cómo puedo asistirte."]
+      },
+      {
+        "tag": "despedida",
+        "patterns": ["Adiós", "Hasta luego", "Nos vemos", "Chao", "Gracias, eso es todo"],
+        "responses": ["¡Hasta luego! Éxitos en tus estudios.", "Nos vemos pronto. ¡Cuídate!", "¡Gracias a ti! Que tengas un buen día."]
+      },
+      {
+        "tag": "agradecimiento",
+        "patterns": ["Gracias", "Muchas gracias", "Te lo agradezco", "Muy amable"],
+        "responses": ["¡Con gusto!", "Para eso estoy.", "Siempre es un placer ayudarte."]
+      },
+      {
+        "tag": "horarios_clases",
+        "patterns": ["¿Cuál es el horario de clases?", "¿A qué hora tengo clases?", "Horarios de materias", "Cuándo tengo clases"],
+        "responses": ["Puedes consultar el horario completo en el portal académico.", "El horario de clases depende de tu carrera y semestre. ¿Qué materia estás buscando?"]
+      },
+      {
+        "tag": "inscripcion_materias",
+        "patterns": ["¿Cómo me inscribo a las materias?", "No sé cómo inscribirme", "¿Dónde me inscribo?", "Inscripción de asignaturas"],
+        "responses": ["Debes ingresar al sistema académico y seleccionar tus materias desde la sección 'Inscripción'.", "Recuerda revisar los requisitos previos antes de inscribirte."]
+      },
+      {
+        "tag": "profesores",
+        "patterns": ["¿Quién dicta la materia de cálculo?", "¿Quién es el profesor de historia?", "Docente de programación"],
+        "responses": ["Puedes revisar la lista de docentes asignados en el sitio oficial del curso.", "Cada sección tiene un docente diferente, consulta con tu coordinador académico."]
+      },
+      {
+        "tag": "evaluaciones",
+        "patterns": ["¿Cuándo son los exámenes?", "Fechas de parciales", "Tengo un examen", "Evaluaciones programadas"],
+        "responses": ["Las fechas de evaluaciones están publicadas en el calendario académico.", "Consulta con tu profesor o revisa el aula virtual para más detalles."]
+      },
+      {
+        "tag": "calificaciones",
+        "patterns": ["¿Dónde veo mis notas?", "Calificaciones de materias", "Notas finales", "Mis resultados"],
+        "responses": ["Puedes ver tus calificaciones en el portal del estudiante.", "Tus notas están disponibles en la sección 'Rendimiento Académico'."]
+      },
+      {
+        "tag": "contacto_administracion",
+        "patterns": ["¿Cómo contacto con administración?", "Necesito ayuda de secretaría", "Oficina académica", "Soporte estudiantil"],
+        "responses": ["Puedes enviar un correo a soporte@universidad.edu o acercarte a la oficina de lunes a viernes de 9 a 14 hs.", "El contacto de administración está en la sección 'Contacto' del sitio web."]
+      },
+      {
+        "tag": "informacion_carrera",
+        "patterns": ["Información sobre la carrera de ingeniería", "¿Qué materias tiene psicología?", "Duración de medicina", "Plan de estudios"],
+        "responses": ["Puedes ver toda la información de las carreras en la sección 'Oferta Académica' del sitio institucional.", "Cada carrera tiene su plan de estudios, ¿te interesa alguna en particular?"]
+      },
+      {
+        "tag": "no_entendido",
+        "patterns": [],
+        "responses": [
+          "Lo siento, no entendí tu mensaje. ¿Podrías reformularlo?",
+          "No estoy seguro de cómo ayudarte con eso. Intenta con otra frase por favor."
+        ]
+      }
+    ]
+  }
+  
